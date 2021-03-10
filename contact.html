@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<!-- LIVE Bate Website
+   Author: Chauntel Atchley Cully
+   Date: 02/27/2021 - 03/02/2021-->
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Howard's Lakeside General Store</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="main-nav">
+        <h1 class="name">Howard's Lakeside General Store</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Product & Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="contact">
+      <!-- Contact Form with Number/Address/Email -->
+      <div class="location">
+        <h3>Location & Contact Information</h3>
+        <p>Address: <a
+            href="https://www.google.com/maps/place/Lakeside+General+Store/@39.9479642,-83.7485404,17.81z/data=!4m16!1m10!4m9!1m4!2m2!1d-93.3288194!2d37.1756952!4e1!1m3!2m2!1d-83.74851!2d39.94753!3m4!1s0x883f5130f81985dd:0x39561b9624015afe!8m2!3d39.9477075!4d-83.7489416"
+            target="_blank">1919 Croft Rd, Springfield, OH 45503</a></p>
+        <p>Phone: <a href="tel:+19375051037">(937) 505-1037</a></p>
+        <p>Email: <a href="mailto:howardslakeside@gmail.com">howardslakeside@gmail.com</a></p>
+        <form method="get" action="thankyou.html">
+          <p>Please fill in the form, and we will get back with you ASAP!</p>
+          <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+          <br>
+          <input type="text" name="lname" id="lname" required placeholder="Last Name" />
+          <br>
+          <input type="text" name="phone" id="phone" required placeholder="Phone" />
+          <br>
+          <input type="email" name="fname" id="email" required placeholder="Email" />
+          <br>
+          <textarea id="additionalinfo" name="additionalinfo" rows="5" cols="50" required placeholder="Comments..."></textarea>
+          <br>
+          <input class="submit" type="submit" value="Submit" />
+        </form>
+      </div>
+      <section class="store">
+        <!-- Store -->
+        <img class="strfrnt" src="images/store.png" alt="">
+        <div>
+        <p>We are located right across Buck Creek which you can set up to go
+          camping there!</p>
+        <iframe class="strfrnt" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3058.7060573639424!2d-83.7485404!3d39.9479642!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883f5130f81985dd%3A0x39561b9624015afe!2sLakeside%20General%20Store!5e0!3m2!1sen!2sus!4v1614644616127!5m2!1sen!2sus" width="703" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </section>
+      <!-- Facebook into with Link -->
+      <div class="fb">
+        <h3>Follow us on Facebook</h3>
+        <p>You can find us on Facebook. Please Like/Follow/Share.</p>
+        <p>Message us with any questons, which we typically respond within a day!</p>
+        <a href="https://www.facebook.com/Howards-Lakeside-General-Store-424457621477830/?ref=page_internal" class="fa fa-facebook" target="_blank"></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Howard's Lakeside General Store<br>
+        1919 Croft Rd, Springfield, OH 45503 &#8226; (937) 505-1037 &#8226; &copy; 2021
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>

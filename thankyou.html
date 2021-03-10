@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+  <!-- Cheech's Flexible Pizza Parlor
+   Author: Chauntel Atchley Cully
+   Date: 02/20/2021 -->
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script>
+    function printQuery() {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+        document.write(pair[0] + ": " + pair[1] + "<br />");
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Thank You for Your Information</title>
+</head>
+
+<body>
+  <header>
+    <nav class="main-nav">
+      <h1 class="name">Howard's Lakeside General Store</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Product & Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="container">
+      <h2>Thank you for Information! We will get back with you typically within a day!</h2>
+
+      <script>
+        printQuery();
+      </script>
+    </div>
+    <footer>
+      <p>Howard's Lakeside General Store<br>
+        1919 Croft Rd, Springfield, OH 45503 &#8226; (937) 505-1037 &#8226; &copy; 2021
+      </p>
+    </footer>
+</body>
+
+</html>
